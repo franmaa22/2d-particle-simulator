@@ -11,7 +11,8 @@ export default function CanvasSim() {
     addEventListener("resize", resize); resize();
 
     // estado mínimo: un punto que se mueve en X
-    let x = 50, y = 80, vx = 120; // px/s
+    let x = 50, vx = 120; // px/s
+    const y = 80;
     let last = performance.now() / 1000;
 
     const loop = () => {
