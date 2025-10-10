@@ -1,10 +1,10 @@
 import './App.css'
-import CanvasSim from './components/CanvasSim'
+import LearningCanvas from './components/LearningCanvas'
 
 function App() {
 
   return (
-    <CanvasSim />
+    <LearningCanvas width={800} height={700}></LearningCanvas>
   )
 }
 
